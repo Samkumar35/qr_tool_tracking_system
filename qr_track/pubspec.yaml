@@ -1,0 +1,31 @@
+name: qr_track
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- PACKAGES ADDED FOR THE APP ---
+  http: ^1.2.1                  # For making API calls to your backend
+  mobile_scanner: ^5.1.0        # For scanning QR codes with the camera
+  qr_flutter: ^4.1.0            # For generating QR codes to display
+  flutter_secure_storage: ^9.1.1  # For securely storing the login token
+  provider: ^6.1.2              # For state management
+  # ------------------------------------
+  
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
